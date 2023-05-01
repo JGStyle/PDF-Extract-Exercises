@@ -24,11 +24,13 @@ I have included one example file in the project with the corresponding out.pdf.
 The pdf was generated with the command:
 `extract.py blatt-aufg.pdf a4_dotted.pdf`
 
+to get an understanding what the script does, first take a look at `blatt-aufg.pdf` and compare it to `out.pdf` and `a4_dotted.pdf`
+
 ## Remarks
 
 - It is recommended to keep the template.pdf with the same dimensions as the input.pdf
 - You can use this for any exercise pdf, just provide a regex pattern to match the exercise names. You do not need to know regex - just use https://regex-generator.olafneumann.org/?
-- if the spacing for the tasks is a bit of you can enter some special spacing
+- if the spacing for the tasks is a bit off you can enter special spacing
 
 ## help:
 
